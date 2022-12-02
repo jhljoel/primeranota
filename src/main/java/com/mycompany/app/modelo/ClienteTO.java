@@ -4,10 +4,13 @@
  */
 package com.mycompany.app.modelo;
 
+import lombok.Data;
+
 /**
  *
  * @author PC
  */
+@Data
 public class ClienteTO {
     public String dniruc, nombresrs, tipo;
 
